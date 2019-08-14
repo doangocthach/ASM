@@ -62,3 +62,12 @@ body {
     display: inline;
     position: relative;
 }
+
+.direction{
+    float: left;
+}
+.container-fluid .abc{
+    background-color:whitesmoke;
+    margin-top: 5px;
+    border-radius: 5px;
+}
