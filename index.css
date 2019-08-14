@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo {
+    width: 347px;
+    height: 64px;
+}
+
+@media only screen and (max-width: 600px) {
+    #logo {
+        width: 147px;
+        height: 27px;
+    }
+    #logged{
+        padding: 5px 2px !important;
+    }
+    #setting{
+        display: none !important;
+    }
+    #navlink
+    {
+        padding: 20px 2px !important; 
+    }
+}
+
+.top {
+    background-color: white !important;
+}
+.navbar-nav ml-auto{
+ padding: 20px;
+}
+.navlink 
+{
+    color: black !important;
+}
+.navlink{
+    margin-right: 2em ;
+}
+.navlink :hover
+{
+    color: #0685aa !important;
+}
+#logged
+{  
+    right: 5px !important;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    background-color: #E8B119;
+}
+#form-control
+{
+    width: 149px !important;
+}
+.temp{
+    top: 15px;
+    display: inline;
+    position: relative;
+}
