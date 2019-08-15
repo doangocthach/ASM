@@ -67,6 +67,7 @@ body {
 
 .temp {
     top: 15px;
+<<<<<<< HEAD
 }
 
 @media only screen and (min-width: 760px) {
@@ -114,4 +115,17 @@ body {
 
 .date {
     font-size: 0.8rem;
+=======
+    display: inline;
+    position: relative;
+}
+
+.direction{
+    float: left;
+}
+.container-fluid .abc{
+    background-color:whitesmoke;
+    margin-top: 5px;
+    border-radius: 5px;
+>>>>>>> dae7adce66ce0702529071d252460702789ef9be
 }
