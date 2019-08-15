@@ -16,49 +16,102 @@ body {
         width: 147px;
         height: 27px;
     }
-    #logged{
-        padding: 5px 2px !important;
+    #logged {
+        padding: 3px 1px !important;
+        /* width: 60px;
+        height: 20px;
+        font-size: 10px; */
     }
-    #setting{
-        display: none !important;
-    }
-    #navlink
-    {
-        padding: 20px 2px !important; 
+    #navlink {
+        padding: 20px 2px !important;
     }
 }
 
-.top {
+@media only screen and (max-width: 1000px) {
+    #setting {
+        display: none;
+    }
+}
+
+#top {
     background-color: white !important;
 }
-.navbar-nav ml-auto{
- padding: 20px;
+
+.navbar-nav ml-auto {
+    padding: 20px;
 }
-.navlink 
-{
+
+.navlink {
     color: black !important;
+    text-decoration: none;
 }
-.navlink{
-    margin-right: 2em ;
+
+.navlink {
+    margin-right: 2em;
 }
-.navlink :hover
-{
+
+.navlink :hover {
     color: #0685aa !important;
 }
-#logged
-{  
-    right: 5px !important;
+
+#logged {
     border-radius: 5px;
     border: none;
     padding: 10px;
     background-color: #E8B119;
 }
-#form-control
-{
+
+#form-control {
     width: 149px !important;
 }
-.temp{
+
+.temp {
     top: 15px;
-    display: inline;
-    position: relative;
+}
+
+@media only screen and (min-width: 760px) {
+    .temp {
+        order: 3;
+    }
+}
+
+#content {
+    background: url(image/plane-841441_1280-Free-Photos-Pixabay.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-row {
+    margin-top: 20px;
+}
+
+.navlink {
+    display: block !important;
+}
+
+.card-body {
+    border-radius: 5px;
+    padding: 1.5rem;
+}
+
+.title-wrapper {
+    color: #DBA510;
+    padding: 15px;
+    text-align: left
+}
+
+.content-head {
+    font-size: 0.8125rem;
+}
+
+.header-time {
+    display: flex;
+}
+
+.direction {
+    font-size: 24px;
+}
+
+.date {
+    font-size: 0.8rem;
 }
