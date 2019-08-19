@@ -67,9 +67,7 @@ body {
 
 .temp {
     top: 15px;
-<<<<<<< HEAD
 }
-
 @media only screen and (min-width: 760px) {
     .temp {
         order: 3;
@@ -115,7 +113,6 @@ body {
 
 .date {
     font-size: 0.8rem;
-=======
     display: inline;
     position: relative;
 }
@@ -127,5 +124,21 @@ body {
     background-color:whitesmoke;
     margin-top: 5px;
     border-radius: 5px;
->>>>>>> dae7adce66ce0702529071d252460702789ef9be
+}
+
+#inhere{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.plus-time{
+    color:  red;
+}
+
+.header-icon{
+    float: left;
+}
+
+.header-info{
+    display: inline-block;
 }
