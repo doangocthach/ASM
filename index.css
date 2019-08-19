@@ -115,6 +115,7 @@ body {
     font-size: 0.8rem;
     display: inline;
     position: relative;
+    margin-left: 5px;
 }
 
 .direction{
@@ -142,3 +143,66 @@ body {
 .header-info{
     display: inline-block;
 }
+
+.header-icon{
+    margin-right: 20px;  
+}
+
+.icon, .plus-time{
+    margin: 0px 10px 0px 10px;
+}
+
+.viewdetail{
+    border: none;
+    background-color: white;
+    display: block;
+    padding: 16px 20px;
+    color: #0091B1;
+    position: relative;
+    font-size: 12px;
+}
+.viewdetail::before{
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #f7f6f5;
+    left: 20px;
+    bottom: -30px;
+    transform: rotate(45deg);
+}
+.segment-line{
+    margin-left: 50px;
+    position: relative;
+    background: #f7f6f5;
+}
+
+.segment-content::before{
+    content: "";
+    position: absolute;
+    display: block;
+    background: #39c;
+    width: .0625rem;
+    height: 230px;
+    left: -28px;
+    bottom: 50px;
+}
+.segment-header::after{
+    content: "";
+    position: absolute;
+    background: url(image/icon-flight_arrived.png) no-repeat 0 0;
+    width: 50px;
+    height: 50px;
+    left: -50px;
+}
+/* *{
+    animation: a 2s infinite;
+}
+@keyframes a{
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg)
+    }
+} */
