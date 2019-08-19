@@ -68,6 +68,7 @@ body {
 .temp {
     top: 15px;
 }
+
 @media only screen and (min-width: 760px) {
     .temp {
         order: 3;
@@ -91,6 +92,12 @@ body {
 .card-body {
     border-radius: 5px;
     padding: 1.5rem;
+    border: none;
+}
+
+.card {
+    border-radius: 5px;
+    border: none;
 }
 
 .title-wrapper {
@@ -117,28 +124,70 @@ body {
     position: relative;
 }
 
-.direction{
+.direction {
     float: left;
 }
-.container-fluid .abc{
-    background-color:whitesmoke;
+
+.container-fluid .abc {
+    background-color: whitesmoke;
     margin-top: 5px;
     border-radius: 5px;
 }
 
-#inhere{
+#inhere {
     text-decoration: none;
     list-style-type: none;
 }
 
-.plus-time{
-    color:  red;
+.plus-time {
+    color: red;
 }
 
-.header-icon{
+.header-icon {
     float: left;
 }
 
-.header-info{
+.header-info {
     display: inline-block;
+}
+
+.button-right {
+    width: 100%;
+    background-color: #0062cc;
+    color: white;
+    height: 90px;
+    border: none;
+    position: relative;
+}
+.dow-icon
+{
+    position: absolute;
+    right: 1rem;
+    top: 35%;    
+}
+
+#hiden-content {
+    display: none;
+}
+
+#wrrap-right {
+    margin: 10px;
+    color: #0685aa;
+}
+
+#row-button, #row-buttonn {
+    margin: 5px;
+}
+
+.wrap-element {
+    margin: 5px;
+}
+
+.right-content {
+    display: flex;
+}
+
+.content-price {
+  
+    left: 3.5rem;
 }
