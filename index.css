@@ -231,11 +231,12 @@ body {
 .viewdetail::before {
     content: "";
     position: absolute;
+    display: none;
     width: 14px;
     height: 14px;
     background: #f7f6f5;
     left: 20px;
-    bottom: -30px;
+    bottom: -31px;
     transform: rotate(45deg);
 }
 
@@ -251,7 +252,7 @@ body {
     display: block;
     background: #39c;
     width: .0625rem;
-    height: 230px;
+    height: 254px;
     left: -28px;
     bottom: 50px;
 }
