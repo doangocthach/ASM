@@ -96,16 +96,22 @@ body {
 }
 
 .card {
+   
     border-radius: 5px;
     border: none;
 }
-
+#card-price-detail{
+    font-size: 14px;
+}
 .title-wrapper {
     color: #DBA510;
     padding: 15px;
     text-align: left
 }
-
+.col-5, .col-7
+{
+  margin-top: 10px;
+}
 .content-head {
     font-size: 0.8125rem;
 }
@@ -152,7 +158,6 @@ body {
     display: inline-block;
 }
 
-
 .button-right {
     width: 100%;
     background-color: #0062cc;
@@ -161,11 +166,11 @@ body {
     border: none;
     position: relative;
 }
-.dow-icon
-{
+
+.dow-icon {
     position: absolute;
     right: 1rem;
-    top: 35%;    
+    top: 35%;
 }
 
 #hiden-content {
@@ -176,33 +181,44 @@ body {
     margin: 10px;
     color: #0685aa;
 }
-
+.title-detail{
+    background-color: lightgray;
+    text-align: center;
+}
 #row-button, #row-buttonn {
     margin: 5px;
 }
-
+.logo-VNair
+{
+    display: flex;
+}
 .wrap-element {
     margin: 5px;
 }
-
+.span-head-title{
+    color: #0091B1;
+}
 .right-content {
+    position: relative;
     display: flex;
 }
-
+.foorder-right{
+    background-color: #F8E1CE;
+}
 .content-price {
-  
-    left: 3.5rem;
+    /* position: absolute; */
+    left: 2.2rem;
 }
 
-.header-icon{
-    margin-right: 20px;  
+.header-icon {
+    margin-right: 20px;
 }
 
-.icon, .plus-time{
+.icon, .plus-time {
     margin: 0px 10px 0px 10px;
 }
 
-.viewdetail{
+.viewdetail {
     border: none;
     background-color: white;
     display: block;
@@ -211,7 +227,8 @@ body {
     position: relative;
     font-size: 12px;
 }
-.viewdetail::before{
+
+.viewdetail::before {
     content: "";
     position: absolute;
     width: 14px;
@@ -221,13 +238,14 @@ body {
     bottom: -30px;
     transform: rotate(45deg);
 }
-.segment-line{
+
+.segment-line {
     margin-left: 50px;
     position: relative;
     background: #f7f6f5;
 }
 
-.segment-content::before{
+.segment-content::before {
     content: "";
     position: absolute;
     display: block;
@@ -237,7 +255,8 @@ body {
     left: -28px;
     bottom: 50px;
 }
-.segment-header::after{
+
+.segment-header::after {
     content: "";
     position: absolute;
     background: url(image/icon-flight_arrived.png) no-repeat 0 0;
@@ -245,6 +264,7 @@ body {
     height: 50px;
     left: -50px;
 }
+
 /* *{
     animation: a 2s infinite;
 }
@@ -256,4 +276,3 @@ body {
         transform: rotate(360deg)
     }
 } */
-
