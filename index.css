@@ -156,22 +156,12 @@ body {
     border: none;
     background-color: white;
     display: block;
-    padding: 16px 20px;
+    padding: 0;
     color: #0091B1;
     position: relative;
     font-size: 12px;
 }
-.viewdetail::before{
-    content: "";
-    position: absolute;
-    display: none;
-    width: 14px;
-    height: 14px;
-    background: #f7f6f5;
-    left: 20px;
-    bottom: -31px;
-    transform: rotate(45deg);
-}
+ 
 .segment-line{
     margin-left: 50px;
     position: relative;
@@ -195,6 +185,10 @@ body {
     width: 50px;
     height: 50px;
     left: -50px;
+}
+
+.card{
+    border: none;
 }
 /* *{
     animation: a 2s infinite;

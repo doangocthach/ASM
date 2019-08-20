@@ -144,12 +144,12 @@
                                     height="auto">
                                 <b style="font-size: 13px">VN 19 ● Airbus A350</b>
                             </div>
-                            <div id="accordion">
+                            <div class="accordion">
                                 <div class="card">
-                                    <div class="`" id="headingOne">
+                                    <div class="viewdetail" id="headingOne">
                                         <h5 class="mb-0">
-                                            <button class="viewdetail" data-toggle="collapse"
-                                                data-target="#collapseOne" aria-expanded="true"
+                                            <button class="viewdetail collapsed" data-toggle="collapse"
+                                                data-target="#collapseOne" aria-expanded="false"
                                                 aria-controls="collapseOne">
                                                 <span>
                                                     XEM CHI TIẾT
@@ -159,7 +159,7 @@
                                             </button>
                                         </h5>
                                     </div>
-                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
                                         data-parent="#accordion">
                                         <div class="card-body">
                                             <div class="segment-line ">
@@ -167,16 +167,16 @@
                                                     <h3 class="segment-header">
                                                         <span class="time">
                                                             <time>
-                                                                04 Th09 23:45:00
+                                                                04 Th09 23:45
                                                             </time>
                                                         </span>
                                                         <span class="town">
-                                                            HÀ NỘI , VIỆT NAM
+                                                            HÀ NỘI, VIỆT NAM
                                                         </span>
                                                     </h3>
                                                     <div class="segment-content">
                                                         <div class="airport">
-                                                            <span>
+                                                            <span style="font-weight: bold">
                                                                 HAN
                                                             </span>
                                                             <span class="airport-name">
@@ -184,7 +184,7 @@
                                                             </span>
                                                         </div>
                                                         <div class="operated-by">
-                                                            <span class="carrier-code spark-bold">
+                                                            <span style="font-weight: bold">
                                                                 VN 19
                                                             </span>
                                                             <span class="operated-by-label">
@@ -194,46 +194,46 @@
                                                             </span>
                                                         </div>
                                                         <div class="aircraft">
-                                                            <span class="aircraft-name">
+                                                            <span style="font-weight: bold">
                                                                 Máy bay:</span>
                                                             <span class="aircraft-type">
                                                                 Airbus A350
                                                             </span>
                                                         </div>
                                                         <div class="duration">
-                                                            <span class="duration-title">
+                                                            <span style="font-weight: bold">
                                                                 Thời gian di chuyển:
                                                             </span>
                                                             <span>
                                                                 <time class="dxp-duration">
                                                                     <span>
-                                                                        2 tiếng 10 phút
+                                                                        12 tiếng 15 phút
                                                                     </span>
                                                                 </time>
                                                             </span>
                                                         </div>
                                                         <div class="departure-terminal">
-                                                            <span class="arrival-terminal-title">
+                                                            <span style="font-weight: bold">
                                                                 Nhà ga đi
                                                             </span>
                                                             <span>
-                                                                1
+                                                                2
                                                             </span>
                                                         </div>
                                                         <div class="arrival-terminal">
-                                                            <span class="arrival-terminal-title">
+                                                            <span style="font-weight: bold">
                                                                 Nhà ga đến
                                                             </span>
                                                             <span>
-                                                                1
+                                                                2E
                                                             </span>
                                                         </div>
                                                         <div class="fare-basis">
-                                                            <span class="fare-basis-title">
+                                                            <span style="font-weight: bold">
                                                                 Giá vé:
                                                             </span>
                                                             <span class="fare-basis-label">
-                                                                M1YVNW
+                                                                SH1YVNW
                                                             </span>
                                                         </div>
                                                         <div class="info-select">
@@ -254,20 +254,20 @@
                                                     <h3 class="segment-header">
                                                         <span class="time">
                                                             <time>
-                                                                05 Th09 00:55
+                                                                05 Th09 07:00
                                                             </time>
                                                         </span>
                                                         <span class="town">
-                                                            TP HỒ CHÍ MINH , VIỆT NAM
+                                                            Paris
                                                         </span>
                                                     </h3>
                                                     <div class="arrival">
                                                         <div class="airport">
-                                                            <span>
-                                                                SGN
+                                                            <span style="font-weight: bold">
+                                                                CDG
                                                             </span>
                                                             <span class="airport-name">
-                                                                TP HỒ CHÍ MINH (SGN), VIỆT NAM
+                                                                PARIS (CDG), FRANCE
                                                             </span>
                                                         </div>
                                                     </div>
@@ -338,14 +338,138 @@
                                         height="auto">
                                     <b style="font-size: 13px">VN 18 ● Airbus A350</b>
                                 </div>
-                                <div>
-                                    <button type="button" class="viewdetail" aria-expanded="false">
-                                        <span style="font-size: 12px; color: #0091B1">
-                                            XEM CHI TIẾT
-                                        </span>
-                                        <img src="image/arrow-point-to-down.png" alt="down-arrow" width="25px"
-                                            height="auto">
-                                    </button>
+                                <div class="accordion">
+                                    <div class="card">
+                                        <div class="viewdetail" id="headingTwo">
+                                            <h5 class="mb-0">
+                                                <button class="viewdetail collapsed" data-toggle="collapse"
+                                                    data-target="#collapseTwo" aria-expanded="false"
+                                                    aria-controls="collapseTwo">
+                                                    <span>
+                                                        XEM CHI TIẾT
+                                                    </span>
+                                                    <img src="image/arrow-point-to-down.png" alt="down-arrow" width="25px"
+                                                        height="auto">
+                                                </button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                            data-parent="#accordion">
+                                            <div class="card-body">
+                                                <div class="segment-line ">
+                                                    <div class="card card-body">
+                                                        <h3 class="segment-header">
+                                                            <span class="time">
+                                                                <time>
+                                                                    10 Th09 14:00
+                                                                </time>
+                                                            </span>
+                                                            <span class="town">
+                                                                Paris
+                                                            </span>
+                                                        </h3>
+                                                        <div class="segment-content">
+                                                            <div class="airport">
+                                                                <span style="font-weight: bold">
+                                                                    CDG
+                                                                </span>
+                                                                <span class="airport-name">
+                                                                    PARIS (CDG), FRANCE
+                                                                </span>
+                                                            </div>
+                                                            <div class="operated-by">
+                                                                <span style="font-weight: bold">
+                                                                    VN 19
+                                                                </span>
+                                                                <span class="operated-by-label">
+                                                                    <span>
+                                                                        Hãng khai thác VTC Airline
+                                                                    </span>
+                                                                </span>
+                                                            </div>
+                                                            <div class="aircraft">
+                                                                <span style="font-weight: bold">
+                                                                    Máy bay:</span>
+                                                                <span class="aircraft-type">
+                                                                    Airbus A350
+                                                                </span>
+                                                            </div>
+                                                            <div class="duration">
+                                                                <span style="font-weight: bold">
+                                                                    Thời gian di chuyển:
+                                                                </span>
+                                                                <span>
+                                                                    <time class="dxp-duration">
+                                                                        <span>
+                                                                            11 tiếng 25 phút
+                                                                        </span>
+                                                                    </time>
+                                                                </span>
+                                                            </div>
+                                                            <div class="departure-terminal">
+                                                                <span style="font-weight: bold">
+                                                                    Nhà ga đi
+                                                                </span>
+                                                                <span>
+                                                                    2E
+                                                                </span>
+                                                            </div>
+                                                            <div class="arrival-terminal">
+                                                                <span style="font-weight: bold">
+                                                                    Nhà ga đến
+                                                                </span>
+                                                                <span>
+                                                                    2
+                                                                </span>
+                                                            </div>
+                                                            <div class="fare-basis">
+                                                                <span  style="font-weight: bold">
+                                                                    Giá vé:
+                                                                </span>
+                                                                <span class="fare-basis-label">
+                                                                    RH1YVNW
+                                                                </span>
+                                                            </div>
+                                                            <div class="info-select">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" height="48"
+                                                                    width="48">
+                                                                    <g>
+                                                                        <path id="path2"
+                                                                            transform="rotate(0,24,24) translate(9,9.00373810529709) scale(0.9375,0.9375)  "
+                                                                            fill="#000000"
+                                                                            d="M16,22.50701C16.828,22.50701 17.5,23.179011 17.5,24.00701 17.5,24.835011 16.828,25.50701 16,25.50701 15.172,25.50701 14.5,24.835011 14.5,24.00701 14.5,23.179011 15.172,22.50701 16,22.50701z M15.938,5.7450132C16.489998,5.7450132,16.938,6.1920347,16.938,6.7450132L16.938,18.745013C16.938,19.297992 16.489998,19.745013 15.938,19.745013 15.386002,19.745013 14.938,19.297992 14.938,18.745013L14.938,6.7450132C14.938,6.1920347,15.386002,5.7450132,15.938,5.7450132z M16,2.0000014C8.2799997,2.0000014 2,8.2780066 2,15.996013 2,23.714019 8.2799997,29.992024 16,29.992024 23.719999,29.992024 30,23.714019 30,15.996013 30,8.2780066 23.719999,2.0000014 16,2.0000014z M16,0C24.822,0 32,7.1760057 32,15.996013 32,24.81602 24.822,31.992026 16,31.992026 7.1779995,31.992026 0,24.81602 0,15.996013 0,7.1760057 7.1779995,0 16,0z" />
+                                                                    </g>
+                                                                </svg>
+                                                                <span style="font-weight: bold">
+                                                                    Chuyến bay đến vào ngày khác
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <h3 class="segment-header">
+                                                            <span class="time">
+                                                                <time>
+                                                                    11 Th09 06:25
+                                                                </time>
+                                                            </span>
+                                                            <span class="town">
+                                                                HÀ NỘI, VIỆT NAM
+                                                            </span>
+                                                        </h3>
+                                                        <div class="arrival">
+                                                            <div class="airport">
+                                                                <span style="font-weight: bold">
+                                                                    HAN
+                                                                </span>
+                                                                <span class="airport-name">
+                                                                    HÀ NỘI (HAN), VIỆT NAM
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
