@@ -352,7 +352,7 @@ nav {
     border: none;
     background-color: white;
     display: block;
-    padding: 16px 20px;
+    padding: 0;
     color: #0091B1;
     position: relative;
     font-size: 12px;
