@@ -11,7 +11,7 @@ body {
     height: 64px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
     #logo {
         width: 147px;
         height: 27px;
@@ -25,6 +25,37 @@ body {
     #navlink {
         padding: 20px 2px !important;
     }
+    .dropdow-content {
+        display: none;
+        position: absolute;
+        z-index: 999;
+    }
+   
+    #dataCollapse {
+        position: relative;
+        display: block;
+    }
+    button.abc{
+        display: block;
+    }
+} 
+.content-hidden a
+{
+    margin: 10px;
+}
+.abc{
+    border: none;
+    background-color: white;
+    display: none;
+}
+
+#navbarResponsive{
+    width: 100%;
+}
+.dropbtn {
+    border: none;
+    background-color: white;
+    display: none;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -35,6 +66,12 @@ body {
 
 #top {
     background-color: white !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    z-index: 9999;;
 }
 
 .navbar-nav ml-auto {
@@ -44,6 +81,89 @@ body {
 .navlink {
     color: black !important;
     text-decoration: none;
+}
+
+.nav-item {
+    background-color: white;
+}
+
+nav {
+    background: #168fb0;
+}
+
+.wrap__nav {
+    list-style: none;
+    height: 100%;
+    margin-bottom: 0rem;
+    margin-top: 80px;
+    /* padding-left: 30px; */
+}
+
+.nav__item {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.nav__link {
+    display: inline-flex;
+    text-decoration: none;
+    color: #fff;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    width: 200px;
+    margin-left: 1px;
+}
+.nav__link p{
+    margin: 10px 0;
+}
+.nav__link:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #168fb0;
+    transform: skew(30deg);
+    z-index: -1;
+    border-right: 1px solid #ccc;
+}
+
+.nav__link:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    background: #168fb0;
+    transform: skew(-30deg);
+    z-index: -1;
+    border-right: 1px solid #ccc;
+}
+
+.bg-yellow:after, .bg-yellow:before {
+    background: #e8b119;
+}
+/* 
+.nav__icon {
+    width: 16px;
+    height: 20px;
+    background: url("https://fly.vietnamairlines.com/dx/VNDX/4.1.8-45.D2_KONBINI_0C3_4/images/icon_passenger_white.png") no-repeat;
+    background-size: contain;
+    display: inline-block;
+    margin-right: 1rem;
+} */
+
+.nav__link-text>span {
+    display: block;
 }
 
 .navlink {
@@ -96,22 +216,24 @@ body {
 }
 
 .card {
-   
     border-radius: 5px;
     border: none;
 }
-#card-price-detail{
+
+#card-price-detail {
     font-size: 14px;
 }
+
 .title-wrapper {
     color: #DBA510;
     padding: 15px;
     text-align: left
 }
-.col-5, .col-7
-{
-  margin-top: 10px;
+
+.col-5, .col-7 {
+    margin-top: 10px;
 }
+
 .content-head {
     font-size: 0.8125rem;
 }
@@ -139,6 +261,7 @@ body {
     background-color: whitesmoke;
     margin-top: 5px;
     border-radius: 5px;
+
 }
 
 #inhere {
@@ -181,30 +304,37 @@ body {
     margin: 10px;
     color: #0685aa;
 }
-.title-detail{
+
+.title-detail {
     background-color: lightgray;
     text-align: center;
 }
+
 #row-button, #row-buttonn {
     margin: 5px;
 }
-.logo-VNair
-{
+
+.logo-VNair {
     display: flex;
 }
+
 .wrap-element {
     margin: 5px;
 }
-.span-head-title{
+
+.span-head-title {
     color: #0091B1;
 }
+
 .right-content {
     position: relative;
     display: flex;
 }
-.foorder-right{
+
+.foorder-right {
     background-color: #F8E1CE;
 }
+
 .content-price {
     /* position: absolute; */
     left: 2.2rem;

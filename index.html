@@ -25,43 +25,114 @@
 <body>
 
     <nav class="navbar  navbar-expand-md navbar-light  bg-white" id="top">
-        <div class="container">
+        <div class="container wrap-nav">
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <button class="abc" type="button" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                aria-expanded="false">
                 <span class="navbar-toggler-icon ">
                 </span>
             </button>
+
             <img src="image/67585712_2329710503911876_8164072246546006016_n.png" alt="logo" id="logo">
+            <div class="content-hidden row">
+                <a href="#">Đặt chuyến bay</a>
+                <a href="#">Quản lý chuyến bay của tôi</a>
+            </div>
             <div class="temp">
                 <img src="image/Gear-01-WF.png" sizes="30" alt="setting" width="30" id="setting">
                 <button class="btn btn-primary" id="logged">Đăng nhập</button>
             </div>
-            <div id="navbarResponsive" class="collapse navbar-collapse">
-                <nav class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="navlink" href="#">Đặt chuyến bay</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="navlink" href="#">Quản lý chuyến bay của tôi</a>
-                    </li>
-                </nav>
+            <div id="navbarResponsive" class="dropdown-menu">
+                <div class="container">
+                    <nav class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="navlink" href="#">Đặt chuyến bay</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="navlink" href="#">Quản lý chuyến bay của tôi</a>
+                        </li>
+                    </nav>
+                </div>
             </div>
+
 
         </div>
 
     </nav>
 
-    <!-- <div class="container-fluid navbar-expand-md navbar-light bg-primary">
+    <nav class="">
+
         <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarr">
-                
-            </button>
-           <div class="collapse navbar-collapse"></div>
-            <nav class="navbar" id="navbarr">
-              
-            </nav>
+            <ul class="wrap__nav">
+
+                <li class="nav__item">
+
+
+                    <a href="" class="nav__link bg-yellow">
+                        <span class="nav__icon"></span>
+                        <p class="nav__link-text">
+                            <span class="nav__link-title"> <span><img src="image/icon_plane_white.png" alt="airpland"
+                                        width="15"></span>
+                                <span class="nav__link-title">HAN</span>
+                                <span><img src="image/double-arrow.png" alt="down-arrow" height="15"></span>
+                                <span class="nav__link-title">CDG</span></span>
+                            <span class="nav__link-subtitle">Chọn chuyến bay</span>
+                        </p>
+                    </a>
+                    <a href="" class="nav__link">
+                        <span class="nav__icon"></span>
+                        <p class="nav__link-text">
+                            <span class="nav__link-title"> <span><img
+                                        src="image/kisspng-passenger-computer-icons-travel-baggage-business-passenger-5b36047f2a10d7.938556311530266751.png"
+                                        height="20" alt="airpland"></span>
+                                <span class="nav__link-title">Thông tin hành khách</span>
+                            </span>
+                            <span class="nav__link-subtitle">1 hành khách</span>
+
+                        </p>
+                    </a>
+                    <a href="" class="nav__link">
+                        <p class="nav__link-text">
+                            <span class="nav__link-title"> <span><img
+                                        src="image/kisspng-passenger-computer-icons-travel-baggage-business-passenger-5b36047f2a10d7.938556311530266751.png"
+                                        height="20" alt="airpland"></span>
+                                <span class="nav__link-title">Dịch vụ bổ trợ</span>
+                            </span>
+                            <span
+                                class="nav__link-subtitle">‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍
+                                ‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍</span>
+                        </p>
+                    </a>
+
+                    <a href="" class="nav__link">
+                        <p class="nav__link-text">
+                            <span class="nav__link-title"> <span><img src="image/waiting-room.png" height="20"
+                                        alt="airpland"></span>
+                                <span class="nav__link-title">Chọn chỗ ngồi</span>
+                            </span>
+                            <span
+                                class="nav__link-subtitle">‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍
+                                ‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍</span>
+                        </p>
+                    </a>
+                    <a href="" class="nav__link">
+                        <span class="nav__icon"></span>
+                        <p class="nav__link-text">
+                            <span class="nav__link-title"> <span><img src="image/payment-method.png" height="20"
+                                        alt="airpland"></span>
+                                <span class="nav__link-title">Thanh toán</span>
+                            </span>
+                            <span
+                                class="nav__link-subtitle">‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍
+                                ‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍</span>
+                        </p>
+                    </a>
+                </li>
+
+            </ul>
         </div>
-    </div> -->
+
+    </nav>
 
     <div class="container-fluid" id="content">
         <div class="container">
@@ -355,13 +426,14 @@
                     </div>
                 </div>
                 <div class="col-4">
-                
+
                     <div class="card bg-white" id="card-price-detail">
                         <div id="wrrap-right" class="">
                             <h4>Chi tiết giá</h4>
                         </div>
-                        <button class="button-right" aria-expanded="true" data-toggle="collapse"
-                            data-target="#collapseOne" aria-controls="collapseOne">
+                        <button onclick="submitButtonStyle(this)" id="button-right-click-top" class="button-right"
+                            aria-expanded="true" data-toggle="collapse" data-target="#collapseOne"
+                            aria-controls="collapseOne">
                             <div class="container" id="but-select">
                                 <div class="wrap">
 
@@ -443,8 +515,8 @@
                             </div>
                         </div>
 
-                        <button class="button-right" aria-expanded="true" data-toggle="collapse"
-                            data-target="#collapseTwo" aria-controls="collapseTwo">
+                        <button id="button-right-click-bottom" class="button-right" aria-expanded="true"
+                            data-toggle="collapse" data-target="#collapseTwo" aria-controls="collapseTwo">
                             <div class="container" id="but-selection">
                                 <div class="wrap">
 
