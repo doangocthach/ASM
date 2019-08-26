@@ -419,9 +419,10 @@ nav {
 }
 
 .segment-line {
+    margin-top: 1rem;
     margin-left: 50px;
     position: relative;
-    background: #f7f6f5;
+    background: white;
 }
 
 .segment-content::before {
@@ -430,7 +431,7 @@ nav {
     display: block;
     background: #39c;
     width: .0625rem;
-    height: 254px;
+    height: 230px;
     left: -28px;
     bottom: 50px;
 }
