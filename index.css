@@ -30,38 +30,93 @@ body {
         position: absolute;
         z-index: 999;
     }
-   
     #dataCollapse {
         position: relative;
         display: block;
     }
-    button.abc{
+    button.abc {
         display: block;
     }
-} 
-.content-hidden a
-{
+}
+
+.content-hidden a {
     margin: 10px;
 }
-.abc{
+
+.abc {
     border: none;
     background-color: white;
     display: none;
 }
 
-#navbarResponsive{
+#navbarResponsive {
     width: 100%;
 }
+
 .dropbtn {
     border: none;
     background-color: white;
     display: none;
 }
+.select-button-hidden
+{   
+    display: none;
+    background-color: #E8B119;
+    
+}
+/* .btn-control{
 
+ 
+} */
+.grid
+{
+    display: grid;
+    grid-template-columns: 70% 30%;
+   
+}
+button{
+    border: none;
+    color: white;
+}
+.btn-Control-left
+{
+   background-color: #E8B119;
+
+   /* display: flex; */
+   
+}
+
+.btn-Control-right
+{ 
+   background: #0091B1
+}
 @media only screen and (max-width: 1000px) {
+
+    .content-hidden {
+        display: none;
+    }
+    .Control-nav {
+        display: none;
+    }
+   
     #setting {
         display: none;
     }
+    .select-button-hidden
+    {
+        display: block;
+        
+        margin-top: 80px;
+
+
+    }
+    
+    .col-8
+    {
+        grid-column: 1/4 !important;
+        
+    }
+
 }
 
 #top {
@@ -71,7 +126,8 @@ body {
     left: 0;
     height: 80px;
     width: 100%;
-    z-index: 9999;;
+    z-index: 9999;
+    ;
 }
 
 .navbar-nav ml-auto {
@@ -118,9 +174,11 @@ nav {
     width: 200px;
     margin-left: 1px;
 }
-.nav__link p{
+
+.nav__link p {
     margin: 10px 0;
 }
+
 .nav__link:after {
     content: '';
     display: block;
@@ -152,15 +210,6 @@ nav {
 .bg-yellow:after, .bg-yellow:before {
     background: #e8b119;
 }
-/* 
-.nav__icon {
-    width: 16px;
-    height: 20px;
-    background: url("https://fly.vietnamairlines.com/dx/VNDX/4.1.8-45.D2_KONBINI_0C3_4/images/icon_passenger_white.png") no-repeat;
-    background-size: contain;
-    display: inline-block;
-    margin-right: 1rem;
-} */
 
 .nav__link-text>span {
     display: block;
@@ -261,7 +310,6 @@ nav {
     background-color: whitesmoke;
     margin-top: 5px;
     border-radius: 5px;
-
 }
 
 #inhere {
