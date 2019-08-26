@@ -331,7 +331,7 @@ nav {
 
 .button-right {
     width: 100%;
-    background-color: #0062cc;
+    background-color: #168fb0;
     color: white;
     height: 90px;
     border: none;
@@ -351,6 +351,10 @@ nav {
 #wrrap-right {
     margin: 10px;
     color: #0685aa;
+}
+
+#hihi{
+    margin-top: 10px;
 }
 
 .title-detail {
@@ -385,7 +389,8 @@ nav {
 
 .content-price {
     /* position: absolute; */
-    left: 2.2rem;
+    margin-left: 0px;
+    font-size: 16px;
 }
 
 .header-icon {
@@ -459,14 +464,7 @@ nav {
 .fontweight{
     font-weight: bold;
 }
-/* *{
-    animation: a 2s infinite;
+
+.but-select{
+    background: #168fb0;
 }
-@keyframes a{
-    from {
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(360deg)
-    }
-} */
