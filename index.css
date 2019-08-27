@@ -13,7 +13,6 @@ body {
 
 @media only screen and (min-width: 1000px) {
     #navbarResponsive {
-       
         display: none;
     }
     /* #card-price-detail
@@ -21,14 +20,16 @@ body {
         display: block;
     } */
 }
-.dropdown-menu li
-{
+
+.dropdown-menu li {
     padding: 30px;
 }
-.dropdown-menu{
+
+.dropdown-menu {
     max-height: 200px;
     overflow-x: hidden;
 }
+
 @media only screen and (max-width: 750px) {
     #setting {
         display: none;
@@ -63,16 +64,25 @@ body {
 .content-hidden a {
     margin: 10px;
 }
-.left-top-control
-{
+
+.left-top-control {
     position: relative;
 }
-#ggg
-{
+
+#ggg {
     position: absolute;
-    width: 200%;
-  
+    width: 142%;
 }
+
+.collapsing {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: height .10s ease;
+    -o-transition: height .10s ease;
+    transition: height .10s ease;
+}
+
 .abc {
     border: none;
     background-color: white;
@@ -125,7 +135,6 @@ button {
     .Control-nav {
         display: none;
     }
-   
     .select-button-hidden {
         display: block;
     }
@@ -358,14 +367,16 @@ nav {
     border: none;
     position: relative;
 }
-.button-right-click1{
+
+.button-right-click1 {
     width: 100%;
-    background-color : #e8b119;
+    background-color: #e8b119;
     color: white;
     height: 90px;
     border: none;
     position: relative;
 }
+
 .dow-icon {
     position: absolute;
     right: 1rem;
@@ -484,7 +495,7 @@ nav {
     margin-left: 1rem;
 }
 
-.segment-content, .segment-content1{
+.segment-content, .segment-content1 {
     font-size: 14px;
     margin-left: 1rem;
 }
@@ -493,13 +504,14 @@ nav {
     font-weight: bold;
 }
 
-.changebackground1{
-    background-color : #168fb0;
-}
-.changebackground2{
-    background-color : #e8b119;
+.changebackground1 {
+    background-color: #168fb0;
 }
 
-.rotate{
+.changebackground2 {
+    background-color: #e8b119;
+}
+
+.rotate {
     transform: rotate(180deg);
 }
