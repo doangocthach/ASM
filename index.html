@@ -68,12 +68,14 @@
 
                     <div class="">
                         <p class="nav__link-text">
+                         
                             <span class="nav__link-title"> <span><img src="image/icon_plane_white.png" alt="airpland"
                                         width="15"></span>
                                 <span class="nav__link-title">HAN</span>
                                 <span><img src="image/double-arrow.png" alt="down-arrow" height="15"></span>
                                 <span class="nav__link-title">CDG</span></span>
                             <span class="nav__link-subtitle">Chọn chuyến bay</span>
+                        
                         </p>
                     </div>
                 </button>
@@ -101,7 +103,7 @@
         <div class="container">
             <ul class="wrap__nav">
                 <li class="nav__item">
-                    <a href="" class="nav__link bg-yellow">
+                    <a href="" class="nav__link bg-yellow"  id="first-link">
                         <span class="nav__icon"></span>
                         <p class="nav__link-text">
                             <span class="nav__link-title"> <span><img src="image/icon_plane_white.png" alt="airpland"
@@ -182,14 +184,14 @@
                         <div id="wrrap-right" class="container">
                             <h4 id="hihi">Chi tiết giá</h4>
                         </div>
-                        <button id="button-right-click-top" class="button-right" aria-expanded="false"
+                        <button class="button-right button-right-click1" aria-expanded="false"
                             data-toggle="collapse" data-target="#collapseOne" aria-controls="collapseOne">
                             <div class="container" id="but-select">
                                 <div class="wrap">
 
                                     <div class="right-content">
                                         <span class="wrap-element">
-                                            <img src="image/airplane-shape.png" alt="airpland" height="20">
+                                            <img   src="image/airplane-shape.png" alt="airpland" height="20">
                                         </span>
                                         <span class="wrap-element">
                                             <h5> HAN</h5>
@@ -212,7 +214,7 @@
                                 </div>
                             </div>
                         </button>
-                        <div id="collapseOne" class="collapse " aria-labelledby="headingOne">
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne">
                             <div class="title-detail">
                                 <p><span class="span-head-title">Khởi hành </span>11:45 pm, on 04 August 2019</p>
                             </div>
@@ -265,7 +267,7 @@
                             </div>
                         </div>
 
-                        <button id="button-right-click-bottom" class="button-right" aria-expanded="false"
+                        <button id="button-right-click2" class="button-right" aria-expanded="false"
                             data-toggle="collapse" data-target="#collapseTwo" aria-controls="collapseTwo">
                             <div class="container" id="but-selection">
                                 <div class="wrap">
@@ -746,21 +748,21 @@
             </div>
         </div>
     </div>
-    
-
     <script>
         $(document).ready(function () {
             $(".button-right-click1").bind("click", function () {
                 $(this).toggleClass("changebackground1");
                 $("#arrow1").toggleClass("rotate");
+                console.log("noob");
             });
             $("#button-right-click2").bind("click", function () {
                 $(this).toggleClass("changebackground2");
                 $("#arrow2").toggleClass("rotate");
+                console.log("noob");
             });
+            console.log("noob");
         });
     </script>
 </body>
-<script src="index.js"></script>
 
 </html>

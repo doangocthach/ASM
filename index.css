@@ -26,7 +26,7 @@ body {
 }
 
 .dropdown-menu {
-    max-height: 200px;
+    max-height: 200px !important;
     overflow-x: hidden;
 }
 
@@ -177,7 +177,10 @@ button {
 nav {
     background: #168fb0;
 }
-
+#first-link
+{  
+    cursor: pointer;    
+}
 .wrap__nav {
     list-style: none;
     height: 100%;
@@ -190,9 +193,14 @@ nav {
     height: 100%;
     width: 100%;
     overflow: hidden;
+    text-decoration: none;
 }
-
+.nav__link:hover{
+    color: white !important;
+}
 .nav__link {
+    text-decoration: none !important;
+    cursor: not-allowed;
     display: inline-flex;
     text-decoration: none;
     color: #fff;
@@ -242,6 +250,7 @@ nav {
 }
 
 .nav__link-text>span {
+    text-decoration: none;
     display: block;
 }
 
