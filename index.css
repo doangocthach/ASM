@@ -330,7 +330,14 @@ nav {
     border: none;
     position: relative;
 }
-
+.button-right-click1{
+    width: 100%;
+    background-color : #e8b119;
+    color: white;
+    height: 90px;
+    border: none;
+    position: relative;
+}
 .dow-icon {
     position: absolute;
     right: 1rem;
@@ -429,9 +436,9 @@ nav {
     display: block;
     background: #39c;
     width: .0625rem;
-    height: 180px;
-    left: -28px;
-    bottom: 48px;
+    bottom: 0;
+    left: -1.8rem;
+    top: 2.65rem;
 }
 
 .segment-header::after {
@@ -449,7 +456,7 @@ nav {
     margin-left: 1rem;
 }
 
-.segment-content{
+.segment-content, .segment-content1{
     font-size: 14px;
     margin-left: 1rem;
 }
@@ -458,6 +465,13 @@ nav {
     font-weight: bold;
 }
 
-.but-select{
-    background: #168fb0;
+.changebackground1{
+    background-color : #168fb0;
+}
+.changebackground2{
+    background-color : #e8b119;
+}
+
+.rotate{
+    transform: rotate(180deg);
 }
