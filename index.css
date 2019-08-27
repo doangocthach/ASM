@@ -98,17 +98,27 @@ body {
     background-color: white;
     display: none;
 }
-
+.btn-home
+{
+    background-color: #e9e0c6;
+}
+.btn-dropdown
+{
+    border-top: 1px solid white; 
+    background-color: #0685aa;
+    text-decoration: none !important;
+    
+}
+.btn-dropdown a{
+    
+    color: white;
+    text-decoration: none;
+    cursor: not-allowed;
+}
 .select-button-hidden {
     display: none;
     background-color: #E8B119;
 }
-
-/* .btn-control{
-
- 
-} */
-
 .grid {
     display: grid;
     grid-template-columns: 70% 30%;
