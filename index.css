@@ -98,27 +98,67 @@ body {
     background-color: white;
     display: none;
 }
-.btn-home
-{
+
+.btn-home {
     background-color: #e9e0c6;
 }
-.btn-dropdown
-{
-    border-top: 1px solid white; 
+
+.btn-dropdown {
+    border-top: 1px solid white;
     background-color: #0685aa;
     text-decoration: none !important;
+}
+
+.ul-footer {
+    font-size: 1rem;
+    list-style: none;
+    padding-inline-start: 0px !important;
     
 }
-.btn-dropdown a{
-    
+
+.li-footer {
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+ 
+  
+}
+i {
+    color: white;
+}
+
+footer {
+    background-color: #0091B1;
+}
+
+.link-footer {
+    list-style: none;
+    color: white !important;
+    text-decoration: none !important;
+    line-height: 3rem;
+    flex: 0 1 auto;
+}
+
+/* footer a
+{
+    padding: 10px;
+} */
+
+.btn-dropdown a {
     color: white;
     text-decoration: none;
     cursor: not-allowed;
 }
+
 .select-button-hidden {
     display: none;
     background-color: #E8B119;
 }
+
 .grid {
     display: grid;
     grid-template-columns: 70% 30%;
@@ -175,7 +215,7 @@ button {
     padding: 20px;
 }
 
-.nav__link-title{
+.nav__link-title {
     font-size: 18px;
 }
 
@@ -191,10 +231,11 @@ button {
 nav {
     background: #168fb0;
 }
-#first-link
-{  
-    cursor: pointer;    
+
+#first-link {
+    cursor: pointer;
 }
+
 .wrap__nav {
     list-style: none;
     height: 100%;
@@ -209,9 +250,11 @@ nav {
     overflow: hidden;
     text-decoration: none;
 }
-.nav__link:hover{
+
+.nav__link:hover {
     color: white !important;
 }
+
 .nav__link {
     text-decoration: none !important;
     cursor: not-allowed;
@@ -267,6 +310,7 @@ nav {
     margin-top: 0.7rem;
     display: block;
 }
+
 .nav__link-text>span {
     text-decoration: none;
     display: block;
@@ -428,9 +472,10 @@ nav {
     padding-left: 1rem;
 }
 
-.mr-auto, .ml-auto{
+.mr-auto, .ml-auto {
     padding: 0 1rem 0 1rem;
 }
+
 #row-button, #row-buttonn {
     margin: 5px;
 }
