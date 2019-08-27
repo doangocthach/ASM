@@ -23,3 +23,8 @@ window.onclick = function (event) {
     }
   }
 }
+
+document.getElementById('button-right-click-top').addEventListener('click', () => {
+  document.getElementById('down-iconn').classList.toggle('transform-360');
+  console.log('loz');
+})

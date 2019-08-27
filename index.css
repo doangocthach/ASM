@@ -11,13 +11,34 @@ body {
     height: 64px;
 }
 
+@media only screen and (min-width: 1000px) {
+    #navbarResponsive {
+       
+        display: none;
+    }
+    /* #card-price-detail
+    {
+        display: block;
+    } */
+}
+.dropdown-menu li
+{
+    padding: 30px;
+}
+.dropdown-menu{
+    max-height: 200px;
+    overflow-x: hidden;
+}
 @media only screen and (max-width: 750px) {
+    #setting {
+        display: none;
+    }
     #logo {
-        width: 147px;
-        height: 27px;
+        width: 195px;
+        height: auto;
     }
     #logged {
-        padding: 3px 1px !important;
+        padding: 3px 10px !important;
         /* width: 60px;
         height: 20px;
         font-size: 10px; */
@@ -42,7 +63,16 @@ body {
 .content-hidden a {
     margin: 10px;
 }
-
+.left-top-control
+{
+    position: relative;
+}
+#ggg
+{
+    position: absolute;
+    width: 200%;
+  
+}
 .abc {
     border: none;
     background-color: white;
@@ -50,7 +80,7 @@ body {
 }
 
 #navbarResponsive {
-    width: 100%;
+    width: 50%;
 }
 
 .dropbtn {
@@ -88,16 +118,14 @@ button {
     background: #0091B1
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 960px) {
     .content-hidden {
         display: none;
     }
     .Control-nav {
         display: none;
     }
-    #setting {
-        display: none;
-    }
+   
     .select-button-hidden {
         display: block;
     }
@@ -219,7 +247,7 @@ nav {
 #logged {
     border-radius: 5px;
     border: none;
-    padding: 10px;
+    padding: 3px 10px;
     background-color: #E8B119;
 }
 
@@ -346,7 +374,7 @@ nav {
     color: #0685aa;
 }
 
-#hihi{
+#hihi {
     margin-top: 10px;
 }
 
@@ -443,21 +471,21 @@ nav {
     left: -50px;
 }
 
-.segment-header{
+.segment-header {
     font-size: 16px;
     font-weight: bold;
     margin-left: 1rem;
 }
 
-.segment-content{
+.segment-content {
     font-size: 14px;
     margin-left: 1rem;
 }
 
-.fontweight{
+.fontweight {
     font-weight: bold;
 }
 
-.but-select{
+.but-select {
     background: #168fb0;
 }

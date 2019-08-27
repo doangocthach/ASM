@@ -19,6 +19,7 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
+
     <title>Document</title>
 </head>
 
@@ -62,50 +63,45 @@
 
         <div class="grid">
 
+            <div class="left-top-control text-center">
+                <button class="btn-Control-left" type="button" data-toggle="collapse" data-target="#ggg"
+                    aria-expanded="false" aria-controls="#ggg">
 
-            <button class="btn-Control-left" type="button" data-toggle="collapse" data-target="" aria-expanded="false"
-                aria-controls="collapseExample">
-
-                <div class="">
-                    <p class="nav__link-text">
-                        <span class="nav__link-title"> <span><img src="image/icon_plane_white.png" alt="airpland"
-                                    width="15"></span>
-                            <span class="nav__link-title">HAN</span>
-                            <span><img src="image/double-arrow.png" alt="down-arrow" height="15"></span>
-                            <span class="nav__link-title">CDG</span></span>
-                        <span class="nav__link-subtitle">Chọn chuyến bay</span>
-                    </p>
-                </div>
-            </button>
-
+                    <div class="">
+                        <p class="nav__link-text">
+                            <span class="nav__link-title"> <span><img src="image/icon_plane_white.png" alt="airpland"
+                                        width="15"></span>
+                                <span class="nav__link-title">HAN</span>
+                                <span><img src="image/double-arrow.png" alt="down-arrow" height="15"></span>
+                                <span class="nav__link-title">CDG</span></span>
+                            <span class="nav__link-subtitle">Chọn chuyến bay</span>
+                        </p>
+                    </div>
+                </button>
+                <ul class="dropdown-menu scrollable-menu" id="ggg" role="menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                </ul>
+            </div>
             <button class="btn-Control-right" type="button" data-toggle="collapse" data-target="#card-price-detail"
-                aria-expanded="false" aria-controls="collapseExample">
+                aria-expanded="false" aria-controls="#card-price-detail">
                 <span class="nav__icon"></span>
                 <p class="nav__link-text">
-
-                    <span>63,472,000 VND</span>
-                    <!-- <span class="nav__link-title"> <span><img src="image/icon_plane_white.png" alt="airpland"
-                                width="15"></span>
-                        <span class="nav__link-title">HAN</span>
-                        <span><img src="image/double-arrow.png" alt="down-arrow" height="15"></span>
-                        <span class="nav__link-title">CDG</span></span>
-                    <span class="nav__link-subtitle">Chọn chuyến bay</span> -->
+                    <span>63,471,000 VND</span>
                 </p>
             </button>
-
-
         </div>
-
     </div>
-
     <nav class="Control-nav">
-
         <div class="container">
             <ul class="wrap__nav">
-
                 <li class="nav__item">
-
-
                     <a href="" class="nav__link bg-yellow">
                         <span class="nav__icon"></span>
                         <p class="nav__link-text">
@@ -126,7 +122,6 @@
                                 <span class="nav__link-title">Thông tin khách</span>
                             </span>
                             <span class="nav__link-subtitle">1 hành khách</span>
-
                         </p>
                     </a>
                     <a href="" class="nav__link">
@@ -137,8 +132,7 @@
                                 <span class="nav__link-title">Dịch vụ bổ trợ</span>
                             </span>
                             <span
-                                class="nav__link-subtitle">‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍
-                                ‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍</span>
+                                class="nav__link-subtitle">‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍</span>
                         </p>
                     </a>
                     <a href="" class="nav__link">
@@ -182,11 +176,186 @@
                 <div class="grid-body">
 
                 </div>
-<<<<<<< HEAD
-                <div class="col-8">
-=======
-                <div class="col-xl-8 col-lg-12">   
->>>>>>> 03688a4d1bb16304cd317985cf65a803680f0a88
+
+                <div class="col-lg-4 col-md-12 order-xl-12 order-lg-1  ">
+
+                    <div class="card bg-white" id="card-price-detail">
+                        <div id="wrrap-right" class="container">
+                            <h4 id="hihi">Chi tiết giá</h4>
+                        </div>
+                        <button id="button-right-click-top" class="button-right" aria-expanded="false"
+                            data-toggle="collapse" data-target="#collapseOne" aria-controls="collapseOne">
+                            <div class="container" id="but-select">
+                                <div class="wrap">
+
+                                    <div class="right-content">
+                                        <span class="wrap-element">
+                                            <img src="image/airplane-shape.png" alt="airpland" height="20">
+                                        </span>
+                                        <span class="wrap-element">
+                                            <h5> HAN</h5>
+                                        </span>
+                                        <span class="wrap-element">
+                                            <img src="image/double-arrow.png" alt="double-arrow" height="20">
+                                        </span>
+                                        <span class="wrap-element">
+                                            <h5>CDG</h5>
+                                        </span>
+                                    </div>
+                                    <div class="content-price">
+                                        <span>
+                                            56,471,000 VND
+                                        </span>
+                                    </div>
+                                    <div class="dow-icon" id="dowicon">
+                                        <img src="image/up-arrow.png" id="down-iconn" alt="up-arrow" width="30px">
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <div id="collapseOne" class="collapse " aria-labelledby="headingOne">
+                            <div class="title-detail">
+                                <p><span class="span-head-title">Khởi hành </span>11:45 pm, on 04 August 2019</p>
+                            </div>
+                            <div class="container">
+                                <b>Hà Nội, Việt Nam(HAN)</b>
+                                <span>
+                                    <img src="image/black-plane.png" alt="black-plane" height="20">
+                                </span>
+                                <b>Paris(CDG)</b>
+                                <p>Thời gian: 12 tiếng 15 phút/ Bay thẳng</p>
+
+                                <div class="logo-VNair">
+                                    <img src="image/logo-vietnam-airlines.png" alt="logo-vietnam-airlines" height="19">
+                                    <span>
+                                        <p>VN 19 ● Airbus A350</p>
+                                    </span>
+                                </div>
+                                <p>Hãng khai thác Vietnam Airlines</p>
+
+                            </div>
+                            <div class="title-detail">
+                                <p><span class="span-head-title">Trở về </span>2:00 pm, on 10 September 2019</p>
+                            </div>
+                            <div class="container">
+                                <b>Paris(CDG)</b>
+                                <span>
+                                    <img src="image/black-plane.png" alt="black-plane" height="20">
+                                </span>
+                                <b>Hà Nội , Việt Nam(HAN)</b>
+                                <p>Thời gian: 11 tiếng 25 phút/ Bay thẳng</p>
+                                <div class="logo-VNair">
+                                    <img src="image/logo-vietnam-airlines.png" alt="logo-vietnam-airlines" height="19">
+                                    <p>VN 18 ● Airbus A350</p>
+                                    <p>Hãng khai thác Vietnam Airlines</p>
+                                </div>
+
+                            </div>
+                            <div class="foorder-right">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="mr-auto">
+                                            <span class="span-head-title">Người lớn x1</span>
+                                        </div>
+                                        <div class="ml-auto">
+                                            <span>‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍56,741,000
+                                                VND</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button id="button-right-click-bottom" class="button-right" aria-expanded="false"
+                            data-toggle="collapse" data-target="#collapseTwo" aria-controls="collapseTwo">
+                            <div class="container" id="but-selection">
+                                <div class="wrap">
+
+                                    <div class="right-content">
+                                        <span class="wrap-element"><img src="image/credit-card.png" alt="credit-card"
+                                                height="25"></span>
+                                        <div class="wrap-element">
+                                            <h5>Thuế phí và các khoản thu</h5>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="content-price">
+                                        <span>
+                                            7,000,000 VND
+                                        </span>
+                                    </div>
+                                    <div class="dow-icon">
+                                        <img src="image/up-arrow.png" alt="up-arrow" width="30px">
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingOne">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-7">
+                                        <span class="">Phí soi chiếu an ninh hành khách
+                                            và hành lý, Việt Nam</span>
+                                    </div>
+                                    <div class="col-5">
+                                        515,000 VND
+                                    </div>
+                                    <div class="col-7">
+                                        <span class="">Thuế tổng hợp cho hành khách hàng
+                                            không, Pháp</span>
+                                    </div>
+                                    <div class="col-5">
+
+                                        117,000 VND
+                                    </div>
+                                    <div class="col-7">
+                                        <span class="">Phí dịch vụ hành khách chặng quốc tế,
+                                            Việt Nam</span>
+                                    </div>
+                                    <div class="col-5">
+
+                                        583,000 VND
+                                    </div>
+                                    <div class="col-7">
+                                        <span class="">Phí dịch vụ hành khách chặng quốc tế,
+                                            Pháp</span>
+                                    </div>
+                                    <div class="col-5">
+                                        741,000 VND
+                                    </div>
+                                    <div class="col-7">
+                                        <span class="">Phí nhiên liệu hàng không
+                                        </span>
+                                    </div>
+                                    <div class="col-5">
+                                        4,986,000 VND
+                                    </div>
+                                    <div class="col-7">
+                                        <span class="">Phụ thu quản trị hệ thống</span>
+                                    </div>
+                                    <div class="col-5">
+                                        164,000 VND
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="container">
+                            <h6>Tổng giá chuyến đi</h6>
+                            <h5>63,471,000 VND</h5>
+                            <a href="#">
+                                Xem Quy định về giá vé và Thông tin hành lý hiện
+                                áp dụng
+                            </a>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12">
                     <div class="card-body bg-white">
                         <div class="content-head">
                             <p>
@@ -575,188 +744,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-12">
-
-                    <div class="card bg-white" id="card-price-detail">
-                        <div id="wrrap-right" class="container">
-                            <h4 id="hihi">Chi tiết giá</h4>
-                        </div>
-                        <button onclick="submitButtonStyle(this)" id="button-right-click-top" class="button-right"
-                            aria-expanded="true" data-toggle="collapse" data-target="#collapseOne"
-                            aria-controls="collapseOne">
-                            <div class="container" id="but-select">
-                                <div class="wrap">
-
-                                    <div class="right-content">
-                                        <span class="wrap-element">
-                                            <img src="image/airplane-shape.png" alt="airpland" height="20">
-                                        </span>
-                                        <span class="wrap-element">
-                                            <h5> HAN</h5>
-                                        </span>
-                                        <span class="wrap-element">
-                                            <img src="image/double-arrow.png" alt="double-arrow" height="20">
-                                        </span>
-                                        <span class="wrap-element">
-                                            <h5>CDG</h5>
-                                        </span>
-                                    </div>
-                                    <div class="content-price">
-                                        <span>
-                                            56,471,000 VND
-                                        </span>
-                                    </div>
-                                    <div class="dow-icon">
-                                        <img src="image/up-arrow.png" alt="up-arrow" width="30px">
-                                    </div>
-                                </div>
-                            </div>
-                        </button>
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne">
-                            <div class="title-detail">
-                                <p><span class="span-head-title">Khởi hành </span>11:45 pm, on 04 August 2019</p>
-                            </div>
-                            <div class="container">
-                                <b>Hà Nội, Việt Nam(HAN)</b>
-                                <span>
-                                    <img src="image/black-plane.png" alt="black-plane" height="20">
-                                </span>
-                                <b>Paris(CDG)</b>
-                                <p>Thời gian: 12 tiếng 15 phút/ Bay thẳng</p>
-
-                                <div class="logo-VNair">
-                                    <img src="image/logo-vietnam-airlines.png" alt="logo-vietnam-airlines" height="19">
-                                    <span>
-                                        <p>VN 19 ● Airbus A350</p>
-                                    </span>
-                                </div>
-                                <p>Hãng khai thác Vietnam Airlines</p>
-
-                            </div>
-                            <div class="title-detail">
-                                <p><span class="span-head-title">Trở về </span>2:00 pm, on 10 September 2019</p>
-                            </div>
-                            <div class="container">
-                                <b>Paris(CDG)</b>
-                                <span>
-                                    <img src="image/black-plane.png" alt="black-plane" height="20">
-                                </span>
-                                <b>Hà Nội , Việt Nam(HAN)</b>
-                                <p>Thời gian: 11 tiếng 25 phút/ Bay thẳng</p>
-                                <div class="logo-VNair">
-                                    <img src="image/logo-vietnam-airlines.png" alt="logo-vietnam-airlines" height="19">
-                                    <p>VN 18 ● Airbus A350</p>
-                                    <p>Hãng khai thác Vietnam Airlines</p>
-                                </div>
-
-                            </div>
-                            <div class="foorder-right">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="mr-auto">
-                                            <span class="span-head-title">Người lớn x1</span>
-                                        </div>
-                                        <div class="ml-auto">
-                                            <span>‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍56,741,000 VND</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <button id="button-right-click-bottom" class="button-right" aria-expanded="true"
-                            data-toggle="collapse" data-target="#collapseTwo" aria-controls="collapseTwo">
-                            <div class="container" id="but-selection">
-                                <div class="wrap">
-
-                                    <div class="right-content">
-                                        <span class="wrap-element"><img src="image/credit-card.png" alt="credit-card"
-                                                height="25"></span>
-                                        <div class="wrap-element">
-                                            <h5>Thuế phí và các khoản thu</h5>
-
-                                        </div>
-                                    </div>
-
-                                    <div class="content-price">
-                                        <span>
-                                            7,000,000 VND
-                                        </span>
-                                    </div>
-                                    <div class="dow-icon">
-                                        <img src="image/up-arrow.png" alt="up-arrow" width="30px">
-                                    </div>
-                                </div>
-                            </div>
-                        </button>
-                        <div id="collapseTwo" class="collapse show" aria-labelledby="headingOne">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-7">
-                                        <span class="">Phí soi chiếu an ninh hành khách
-                                            và hành lý, Việt Nam</span>
-                                    </div>
-                                    <div class="col-5">
-                                        515,000 VND
-                                    </div>
-                                    <div class="col-7">
-                                        <span class="">Thuế tổng hợp cho hành khách hàng
-                                            không, Pháp</span>
-                                    </div>
-                                    <div class="col-5">
-
-                                        117,000 VND
-                                    </div>
-                                    <div class="col-7">
-                                        <span class="">Phí dịch vụ hành khách chặng quốc tế,
-                                            Việt Nam</span>
-                                    </div>
-                                    <div class="col-5">
-
-                                        583,000 VND
-                                    </div>
-                                    <div class="col-7">
-                                        <span class="">Phí dịch vụ hành khách chặng quốc tế,
-                                            Pháp</span>
-                                    </div>
-                                    <div class="col-5">
-                                        741,000 VND
-                                    </div>
-                                    <div class="col-7">
-                                        <span class="">Phí nhiên liệu hàng không
-                                        </span>
-                                    </div>
-                                    <div class="col-5">
-                                        4,986,000 VND
-                                    </div>
-                                    <div class="col-7">
-                                        <span class="">Phụ thu quản trị hệ thống</span>
-                                    </div>
-                                    <div class="col-5">
-                                        164,000 VND
-                                    </div>
-
-
-                                </div>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="container">
-                            <h6>Tổng giá chuyến đi</h6>
-                            <h5>63,472,000 VND</h5>
-                            <a href="#">
-                                Xem Quy định về giá vé và Thông tin hành lý hiện
-                                áp dụng
-                            </a>
-                            <br>
-                            <br>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
-
 </body>
+<script src="index.js"></script>
 
 </html>
