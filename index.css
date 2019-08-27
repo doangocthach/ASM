@@ -478,18 +478,36 @@ nav {
     bottom: 0;
     left: -1.8rem;
     top: 2.65rem;
+    margin-bottom: 1.7rem;
 }
 
 .segment-header::after {
+    content: "";
+    position: absolute;
+    background: url(image/icon-flight.png) no-repeat 0 0;
+    width: 50px;
+    height: 50px;
+    left: -50px;
+    z-index: 1;
+}
+
+.segment-footer::after {
     content: "";
     position: absolute;
     background: url(image/icon-flight_arrived.png) no-repeat 0 0;
     width: 50px;
     height: 50px;
     left: -50px;
+    z-index: 1;
 }
 
 .segment-header {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.segment-footer {
     font-size: 16px;
     font-weight: bold;
     margin-left: 1rem;
