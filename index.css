@@ -27,7 +27,6 @@ body {
 
 .dropdown-menu {
     max-height: 200px !important;
-    overflow-x: hidden;
 }
 @media only screen and (max-width: 750px) {
     #select-language {
@@ -73,7 +72,9 @@ body {
 
 #ggg {
     position: absolute;
-    width: 142%;
+    width: 166.5%;
+    margin: 0;
+    padding : 0;
 }
 
 .collapsing {
@@ -168,7 +169,7 @@ footer {
 
 .grid {
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 60% 20% 20%;
 }
 
 button {
@@ -179,6 +180,7 @@ button {
 .btn-Control-left {
     background-color: #E8B119;
     /* display: flex; */
+    width: 100%;
 }
 
 .btn-Control-right {
@@ -388,6 +390,7 @@ nav {
 
 #card-price-detail {
     font-size: 14px;
+    margin-bottom: 1rem;
 }
 
 .title-wrapper {
@@ -644,4 +647,13 @@ nav {
     border-bottom-left-radius: 6%;
     border-bottom-right-radius: 6%;
     top: 4rem;
+}
+
+#inputState{
+    padding: 0rem;
+}
+
+.edit{
+    border-right: 1px solid white; 
+    border-left: 1px solid white; 
 }
