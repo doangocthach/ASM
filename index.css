@@ -29,7 +29,6 @@ body {
     max-height: 200px !important;
     overflow-x: hidden;
 }
-
 @media only screen and (max-width: 750px) {
     #select-language {
         display: none;
@@ -187,6 +186,18 @@ button {
 }
 
 @media only screen and (max-width: 950px) {
+    button.abc {
+        display: block;
+    }
+    .navbar-toggler-icon {
+        display: block;
+    }
+    #select-language {
+        display: none;
+    }
+    #setting {
+        display: none;
+    }
     .content-hidden {
         display: none;
     }
@@ -195,9 +206,6 @@ button {
     }
     .select-button-hidden {
         display: block;
-    }
-    .navbar-toggler-icon {
-        display: block !important;
     }
 }
 
