@@ -121,12 +121,18 @@ body {
     display: inline-block;
     border: 1px solid #fff;
     border-radius: 100%;
-    width: 3rem;
-    height: 3rem;
-    line-height: 3rem;
- 
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    margin-left: 0.5rem;
   
 }
+
+#continue{
+    padding: 0.5rem 1.5rem;
+    color: white
+}
+
 i {
     color: white;
 }
@@ -240,7 +246,7 @@ nav {
     list-style: none;
     height: 100%;
     margin-bottom: 0rem;
-    /* padding-left: 30px; */
+    padding-left: 0rem;
 }
 
 .nav__item {
@@ -498,19 +504,20 @@ nav {
 }
 
 .foorder-right {
-    background-color: #F8E1CE;
+    background-color: rgb(255, 219, 189);
 }
 
 .content-price {
     font-size: 16px;
+    margin-left: 2.5rem;
 }
 
 .header-icon {
-    margin-right: 20px;
+    margin-right: 1rem;
 }
 
 .icon, .plus-time {
-    margin: 0px 10px 0px 10px;
+    margin: 0rem 1rem;
 }
 
 .viewdetail {
@@ -605,4 +612,26 @@ nav {
 
 .rotate {
     transform: rotate(180deg);
+}
+
+.content-hidden{
+    margin-left: 15rem;
+    color: black;
+}
+.content-hidden > a{
+    color: black;
+}
+#setting{
+    cursor: pointer;
+    position: relative;
+}
+
+#select-language{
+    left: 61rem;
+    position: absolute;
+    background-color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 6%;
+    border-bottom-right-radius: 6%;
+    margin-top: 1.2rem;
 }
