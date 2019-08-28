@@ -42,7 +42,24 @@
 
             </div>
             <div class="temp">
-                <img src="image/Gear-01-WF.png" sizes="30" alt="setting" width="30" id="setting">
+
+                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" id="setting" aria-expanded="false"
+                    data-toggle="collapse" data-target="#select-language" aria-controls="select-language">
+                    <g>
+                        <path id="path1" transform="rotate(0,24,24) translate(11,11) scale(0.8125,0.8125)  "
+                            fill="#168FB0"
+                            d="M15.799988,7.9000244C11.400024,7.9000244 7.7999878,11.5 7.7999878,15.900024 7.7999878,20.300018 11.400024,23.900024 15.799988,23.900024 20.200012,23.900024 23.799988,20.300018 23.799988,15.900024 23.799988,11.400024 20.299988,7.9000244 15.799988,7.9000244z M12.600037,0L15.5,4.1000061 16.900024,4.1000061 17.100037,4.1000061 20.100037,0.20001221 24.600037,2.2000122 23.799988,7.1000061 23.900024,7.2000122C24.200012,7.6000061,24.600037,8,25,8.4000244L25.100037,8.6000061 30.200012,7.9000244 32,12.5 27.700012,15.600006 27.700012,17 31.799988,20.100006 29.799988,24.600006 24.700012,23.700012 24.600037,23.800018 23.900024,24.5 23.700012,24.700012 24.400024,30.100006 19.700012,32 16.700012,27.700012 16.5,27.700012 15.200012,27.700012 14.799988,27.700012 11.5,31.900024 7,29.900024 7.9000244,24.700012 7.7999878,24.600006C7.5,24.400024,7.2999878,24.100006,7.1000366,23.900024L6.9000244,23.600006 1.7999878,24.300018 0,19.700012 4,16.800018 4,16.5 4,14.800018 0,11.700012 2,7.2000122 7,8C7.5,7.5,8,7,8.5,6.6000061L8,1.8000183z" />
+                    </g>
+                </svg>
+                <div id="select-language" class="collapse" aria-labelledby="select-language">
+                    <div>
+                        <label>Chọn ngôn ngữ</label>
+                        <select id="inputState" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                </div>
                 <button class="btn btn-primary" id="logged">Đăng nhập</button>
             </div>
             <div id="navbarResponsive" class="dropdown-menu scrollable-menu">
@@ -202,7 +219,6 @@
                         </p>
                     </a>
                 </li>
-
             </ul>
         </div>
 
@@ -230,7 +246,7 @@
 
                                     <div class="right-content">
                                         <span class="wrap-element">
-                                            <img src="image/airplane-shape.png" alt="airpland" height="20">
+                                            <img src="image/airplane-shape.png" alt="airpland" width="25" height="auto">
                                         </span>
                                         <span class="wrap-element">
                                             <h5> HAN</h5>
@@ -242,7 +258,7 @@
                                             <h5>CDG</h5>
                                         </span>
                                     </div>
-                                    <div class="content-price">
+                                    <div class="content-price row">
                                         <span>
                                             56,471,000 VND
                                         </span>
@@ -320,7 +336,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="content-price">
+                                    <div class="content-price row">
                                         <span>
                                             7,000,000 VND
                                         </span>
@@ -386,10 +402,10 @@
                         <div class="container">
                             <h6>Tổng giá chuyến đi</h6>
                             <h5>63,471,000 VND</h5>
-                            <a href="#">
-                                Xem Quy định về giá vé và Thông tin hành lý hiện
+                            <span id="shopping-card">Xem <a href="#">
+                                    Quy định về giá vé </a> và <a href="#"> Thông tin hành lý </a>hiện
                                 áp dụng
-                            </a>
+                            </span>
                             <br>
                             <br>
                         </div>
@@ -500,8 +516,8 @@
                                             </span>
                                         </h3>
                                         <div class="segment-content">
-                                            <div class="fontweight">
-                                                <span>
+                                            <div class="airport">
+                                                <span class="fontweight">
                                                     HAN
                                                 </span>
                                                 <span class="airport-name">
@@ -780,7 +796,7 @@
                     <br>
                     <div class="container">
                         <div class="row">
-                            <input type="button" class="btn btn-warning ml-auto" value="TIẾP">
+                            <input type="button" class="btn btn-warning ml-auto" id="continue" value="TIẾP TỤC">
                         </div>
                     </div>
                     <br>
