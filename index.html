@@ -39,12 +39,13 @@
             <div class="content-hidden row">
                 <a href="#">Đặt chuyến bay</a>
                 <a href="#">Quản lý chuyến bay của tôi</a>
+
             </div>
             <div class="temp">
                 <img src="image/Gear-01-WF.png" sizes="30" alt="setting" width="30" id="setting">
                 <button class="btn btn-primary" id="logged">Đăng nhập</button>
             </div>
-            <div id="navbarResponsive" class="dropdown-menu">
+            <div id="navbarResponsive" class="dropdown-menu scrollable-menu">
                 <div class="container">
                     <nav class="navbar-nav">
                         <li class="nav-item">
@@ -53,6 +54,31 @@
                         <li class="nav-item ">
                             <a class="navlink" href="#">Quản lý chuyến bay của tôi</a>
                         </li>
+                        <div>
+                            <a class="btn-ctrl" data-toggle="collapse" href="#scoll-select-language" role="button"
+                                aria-expanded="false" aria-controls="#scoll-select-language">
+                                Ngôn ngữ
+                            </a>
+
+
+                            <ul class="dropdown-menu scrollable-menu" id="scoll-select-language">
+                                <li>
+                                    <span>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/32px-Vietnam.svg.svg.png"
+                                            alt="VN">
+                                    </span>
+                                    <span>Tiếng Việt</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/32px-Flag_of_England.svg.png"
+                                            alt="ENG">
+                                    </span>
+                                    <span>English</span>
+                                </li>
+                            </ul>
+
+                        </div>
                     </nav>
                 </div>
             </div>
@@ -63,9 +89,9 @@
 
         <div class="grid">
 
-            <div class="left-top-control">
-                <button class="btn-Control-left " type="button" data-toggle="collapse" data-target="#ggg"
-                    aria-expanded="false" aria-controls="#ggg">
+            <div class="left-top-control" data-toggle="collapse" data-target="#ggg" aria-expanded="false"
+                aria-controls="#ggg">
+                <button class="btn-Control-left" type="button">
 
                     <div class="container">
                         <p class="nav__link-text">
@@ -81,7 +107,7 @@
                         </p>
                     </div>
                 </button>
-                <ul class="dropdown-menu scrollable-menu" id="ggg" role="menu">
+                <ul class="dropdown-menu scrollable-menu" id="ggg">
                     <li class="btn-home"><a href="#">
                             <img src="image/home-1.png" width="30px" alt="home">
                             <span>Trang chủ</span>
@@ -771,7 +797,7 @@
                 <div class="col-xl-2 col-lg-4"><a href="#" class="link-footer">Điều Khoản Sử Dụng</a></div>
                 <div class="col-xl-2 col-lg-4"><a href="#" class="link-footer">Câu hỏi thường gặp</a></div>
                 <div class="col-xl-2 col-lg-12"><a href="#" class="link-footer">Liên hệ với chúng tôi</a></div>
-                <div class="icon-footer col-12" >
+                <div class="icon-footer col-12">
                     <ul class="ul-footer">
                         <li class="li-footer"><i class="fa fa-facebook-f"></i></li>
                         <li class="li-footer"><i class="fa fa-youtube"></i></li>

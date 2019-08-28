@@ -83,6 +83,12 @@ body {
     transition: height .10s ease;
 }
 
+.btn-ctrl {
+ color: white !important;   
+}
+
+
+
 .abc {
     border: none;
     background-color: white;
@@ -90,7 +96,9 @@ body {
 }
 
 #navbarResponsive {
-    width: 50%;
+    width: 80%;
+    height: 500px;
+    max-height: 500px !important;
 }
 
 .dropbtn {
@@ -113,7 +121,6 @@ body {
     font-size: 1rem;
     list-style: none;
     padding-inline-start: 0px !important;
-    
 }
 
 .li-footer {
@@ -121,12 +128,11 @@ body {
     display: inline-block;
     border: 1px solid #fff;
     border-radius: 100%;
-    width: 3rem;
-    height: 3rem;
-    line-height: 3rem;
- 
-  
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
 }
+
 i {
     color: white;
 }
@@ -142,11 +148,6 @@ footer {
     line-height: 3rem;
     flex: 0 1 auto;
 }
-
-/* footer a
-{
-    padding: 10px;
-} */
 
 .btn-dropdown a {
     color: white;
