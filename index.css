@@ -28,7 +28,7 @@ body {
 .dropdown-menu {
     max-height: 200px !important;
 }
-@media only screen and (max-width: 700px)
+/* @media only screen and (max-width: 700px)
 {
     #logged {
         width: 100%;
@@ -47,17 +47,32 @@ body {
     .modal-body{
         left: 10% !important;
     }
-}
-@media only screen and (min-width: 750px) {
+} */
+@media only screen and (max-width: 750px) {
     #select-language {
         display: none;
     }
     #setting {
         display: none;
     }
-    #logo {
-        width: 195px;
+    #icon_plane{
+        width: 25px;
         height: auto;
+    }
+    #logo {
+        width: 150px;
+        height: auto;
+    }
+    #ic_edit{
+        width: 30px;
+        height: auto;
+    }
+    #ic_s{
+        width: 30px;
+        height: auto;
+    }
+    #selecttt{
+        font-size: 14px;
     }
     #logged {
         padding: 3px 10px !important;
@@ -71,7 +86,7 @@ body {
         height: auto;
     } */
     .modal-body{
-        left: 23% ;
+        left: 15% !important;
     }
     #navlink {
         padding: 20px 2px !important;
@@ -89,6 +104,7 @@ body {
         display: block;
     }
 }
+
 
 .content-hidden a {
     margin: 10px;
