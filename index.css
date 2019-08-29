@@ -28,6 +28,14 @@ body {
 .dropdown-menu {
     max-height: 200px !important;
 }
+@media only screen and (max-width: 330px)
+{
+    .modal-dialog{
+        left: 1% !important;
+        width: 300px;
+        height: auto;
+    }
+}
 @media only screen and (max-width: 750px) {
     #select-language {
         display: none;
@@ -44,6 +52,14 @@ body {
         /* width: 60px;
         height: 20px;
         font-size: 10px; */
+    }
+    .modal-dialog{
+        left: 10%;
+        width: 300px;
+        height: auto;
+    }
+    .modal-body{
+        left: 14% !important;
     }
     #navlink {
         padding: 20px 2px !important;
@@ -208,6 +224,11 @@ button {
     }
     .select-button-hidden {
         display: block;
+    }
+    .model-dialog{
+        left: 30%;
+        width: 500px;
+        height: 400px;
     }
 }
 
@@ -660,4 +681,12 @@ nav {
 
 .li-footer{
     cursor: pointer;
+}
+
+#login{
+    top: 30%;
+}
+
+.modal-body{
+    left: 30%;
 }
