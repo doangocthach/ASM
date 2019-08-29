@@ -27,7 +27,14 @@ body {
 
 .dropdown-menu {
     max-height: 200px !important;
-    overflow-x: hidden;
+}
+@media only screen and (max-width: 330px)
+{
+    .modal-dialog{
+        left: 1% !important;
+        width: 300px;
+        height: auto;
+    }
 }
 
 @media only screen and (max-width: 750px) {
@@ -46,6 +53,14 @@ body {
         /* width: 60px;
         height: 20px;
         font-size: 10px; */
+    }
+    .modal-dialog{
+        left: 10%;
+        width: 300px;
+        height: auto;
+    }
+    .modal-body{
+        left: 14% !important;
     }
     #navlink {
         padding: 20px 2px !important;
@@ -80,7 +95,9 @@ body {
 
 #ggg {
     position: absolute;
-    width: 142%;
+    width: 166.5%;
+    margin: 0;
+    padding : 0;
 }
 
 .collapsing {
@@ -184,7 +201,7 @@ footer {
 
 .grid {
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 60% 20% 20%;
 }
 
 button {
@@ -195,6 +212,7 @@ button {
 .btn-Control-left {
     background-color: #E8B119;
     /* display: flex; */
+    width: 100%;
 }
 
 .btn-Control-right {
@@ -222,6 +240,11 @@ button {
     }
     .select-button-hidden {
         display: block;
+    }
+    .model-dialog{
+        left: 30%;
+        width: 500px;
+        height: 400px;
     }
 }
 
@@ -404,6 +427,7 @@ nav {
 
 #card-price-detail {
     font-size: 14px;
+    margin-bottom: 1rem;
 }
 
 .title-wrapper {
@@ -660,4 +684,28 @@ nav {
     border-bottom-left-radius: 6%;
     border-bottom-right-radius: 6%;
     top: 4rem;
+<<<<<<< HEAD
+=======
+}
+
+#inputState{
+    padding: 0rem;
+}
+
+.edit{
+    border-right: 1px solid white; 
+    border-left: 1px solid white; 
+}
+
+.li-footer{
+    cursor: pointer;
+}
+
+#login{
+    top: 30%;
+}
+
+.modal-body{
+    left: 30%;
+>>>>>>> fa7973a0af0312d98fbf41d4acabb3e831fb44b4
 }
