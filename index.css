@@ -29,6 +29,7 @@ body {
     max-height: 200px !important;
     overflow-x: hidden;
 }
+
 @media only screen and (max-width: 750px) {
     #select-language {
         display: none;
@@ -67,11 +68,14 @@ body {
     margin: 10px;
 }
 
+.grid {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
 .left-top-control {
     position: relative;
-    /* position: sticky;
-    top: 0; */
-    
 }
 
 #ggg {
@@ -90,6 +94,12 @@ body {
 
 .btn-ctrl {
     color: white !important;
+}
+
+.btn-wrap {
+    width: auto;
+    height: 50px;
+    text-align: center;
 }
 
 .abc {
@@ -120,7 +130,7 @@ body {
     text-decoration: none !important;
 }
 
-.ul-footer {
+.ul-0 {
     font-size: 1rem;
     list-style: none;
     padding-inline-start: 0px !important;
@@ -165,6 +175,9 @@ footer {
 }
 
 .select-button-hidden {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     display: none;
     background-color: #E8B119;
 }
